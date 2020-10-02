@@ -1,0 +1,10 @@
+// giving a graphic look to the image;)
+var img=new SimpleImage("smalllion.jpg");
+print(img);
+print('width',img.getWidth());
+print('height',img.getHeight());
+print(img.getPixel(90,50));
+for(var pixel of img.values()){
+var x = pixel.getX();
+var y = pixel.getY();
+}
