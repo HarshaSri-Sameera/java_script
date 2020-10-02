@@ -1,10 +1,23 @@
+// write your code here
 // giving a graphic look to the image;)
-var img=new SimpleImage("hilton.jpg");
-print(img);
-print('width',img.getWidth());
-print('height',img.getHeight());
-print(img.getPixel(90,50));
-for(var pixel of img.values()){
-var x = pixel.getX();
-var y = pixel.getY();
+var img=new SimpleImage("hilton.jpg"); // importing the image
+
+print(img); //Actual Image
+print('width',img.getWidth()); //width of the image
+print('height',img.getHeight()); //height of the image
+
+var width = img.getWidth(); // declaration
+for(var pixel of img.values()){ //loop
+if(pixel.getX() <= (width/3)){
+    pixel.setRed(255);
 }
+
+if(pixel.getX() > (width/3) && pixel.getX() <= (width * 2/3)){
+    pixel.setGreen(255);
+}
+
+if(pixel.getX() <= (width * 2/3)){
+    pixel.setBlue(255);
+}
+}
+print(img); // Result image
