@@ -1,5 +1,5 @@
 // giving a graphic look to the image;)
-var img=new SimpleImage("smalllion.jpg");
+var img=new SimpleImage("hilton.jpg");
 print(img);
 print('width',img.getWidth());
 print('height',img.getHeight());
