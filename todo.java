@@ -1,55 +1,42 @@
+package com.company;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
-class mainclass
-{
-	class base {
-		public void print() {
-			System.out.println("Usage :-\n" +
-					"$ ./todo add \"todo item\"  # Add a new todo\n" +
-					"$ ./todo ls               # Show remaining todos\n" +
-					"$ ./todo del NUMBER       # Delete a todo\n" +
-					"$ ./todo done NUMBER      # Complete a todo\n" +
-					"$ ./todo help             # Show usage\n" +
-					"$ ./todo report           # Statistic\n");
-		}
-	}
-	void display()
-	{
-		base ob = new base();
-		ob.print();
-	}
 
-}
 class todo {
-	public class createFile {
-
-		public
-		void main(String args[]) {
-
-//			mainclass mainob = new mainclass();
-//			mainob.display();
-			try
-			{
-				File obj = new File("filename.txt");
-				if(obj.createNewFile())
-				{
-					System.out.println("file created"+obj.getName());
-					System.out.println("path: " + obj.getAbsolutePath());
-				}
-				else System.out.println("file already exists");
-			}
-			catch(IOException excep)
-			{
-				System.out.println("An error occurred.");
-				excep.printStackTrace();
-			}
-		}
-	}
+        static void Myfunction() {
+            System.out.println("""
+                    Usage :-
+                    $ ./todo add "todo item"  # Add a new todo
+                    $ ./todo ls               # Show remaining todos
+                    $ ./todo del NUMBER       # Delete a todo
+                    $ ./todo done NUMBER      # Complete a todo
+                    $ ./todo help             # Show usage
+                    $ ./todo report           # Statistic
+                    """);
+        }
+        static void otherfunction() {
+        System.out.println("""
+                    Usage :-
+                    $ ./todo add "todo item"  # Add a new todo
+                    $ ./todo ls               # Show remaining todos
+                    $ ./todo del NUMBER       # Delete a todo
+                    $ ./todo done NUMBER      # Complete a todo
+                    $ ./todo help             # Show usage
+                    $ ./todo report           # Statistic
+                    """);
+        }
 
 
+    public static void main(String[] args) {
+            try {
+                if(args[0].equals("help"))
+                    Myfunction();
+            } catch(ArrayIndexOutOfBoundsException e) {
+                Myfunction();
+            }
+
+
+    }
 }
-
-
-
