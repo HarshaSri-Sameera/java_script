@@ -2,7 +2,7 @@
 ******
 RGB.js
 
-prints the image into RGB equa ratios vertically.
+prints the image into RGB equal ratios vertically.
 ******
 green_screeen_algo.js
 
