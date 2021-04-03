@@ -1,5 +1,4 @@
-// write your code here
-// giving a graphic look to the image;)
+// giving a graphic look to the image
 var img=new SimpleImage("hilton.jpg"); // importing the image
 
 print(img); //Actual Image
