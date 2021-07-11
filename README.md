@@ -9,7 +9,7 @@ prints the image into RGB equal ratios vertically.
 merges the two images using green screen algorithm.
 [check the sample images used for this code execution.](https://github.com/HarshaSri-Sameera/java_script/tree/main/green_screen-img's) 
 
-view output [image](https://github.com/HarshaSri-Sameera/java_script/blob/main/green_screen-img's/output%20_img.png)
+view output [image.](https://github.com/HarshaSri-Sameera/java_script/blob/main/green_screen-img's/output%20_img.png)
 ******
 ### pixel.js
 
