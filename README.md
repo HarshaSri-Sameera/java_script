@@ -1,8 +1,8 @@
-### [RGB.js](../RGB.js)
+### [RGB.js](/RGB.js)
 
 prints the image into RGB equal ratios vertically.
 ******
-### [green_screeen_algo.js](../green_screen_algo.js)
+### [green_screeen_algo.js](/green_screen_algo.js)
 
 #### • Merges the two images using green screen algorithm.
 
@@ -21,6 +21,6 @@ _Usage: Graphics in movies will be placed instead of green color backgrounds._
 #### • Experiment with green screen images on my [codepen](https://codepen.io/harshasri_7/full/yLbXegd).
 
 ******
-### [pixel.js](../pixel.js)
+### [pixel.js](/pixel.js)
 
 changing colors of a box using pixels width and height
