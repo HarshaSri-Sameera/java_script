@@ -16,4 +16,4 @@ for (var px of img.values()){
   }
 }
 print (img);
-//changes the pixels
+//changes the pixel colors
